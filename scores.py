@@ -10,10 +10,10 @@ for score in scores:
         count = count + 1
         if score > bal:
             bal = score
-            average = cem / len(scores)
-            print("Ballarin cemi:", cem)
-            print ("Orta bal:", average)
-            print ("90 ve yuxari:", count)
-            print ("En yuksek bal:" , bal)
+average = cem / len(scores)
+print("Ballarin cemi:", cem)
+print ("Orta bal:", average)
+print ("90 ve yuxari:", count)
+print ("En yuksek bal:" , bal)
 
             

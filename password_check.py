@@ -13,13 +13,13 @@ for herf in password:
         reqem = reqem + 1
     else:
         diger = diger + 1
-        print ("Boyuk herf:", boyuk)
-        print ("kicik herf:", kicik)
-        print ("Reqem:", reqem)
-        print ("Diger:", diger)
+print ("Boyuk herf:", boyuk)
+print ("kicik herf:", kicik)
+print ("Reqem:", reqem)
+print ("Diger:", diger)
 
-        if len(password) >= 8 and boyuk >= 1 and kicik >= 1 and reqem >= 1 and diger >= 1:
-            print ("Guclu sifre:")
-        else:
-            print("Zeif sifre")
+if len(password) >= 8 and boyuk >= 1 and kicik >= 1 and reqem >= 1 and diger >= 1:
+    print ("Guclu sifre:")
+else:
+    print("Zeif sifre")
         

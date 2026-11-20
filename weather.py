@@ -11,5 +11,5 @@ for temp in temperatures:
     weather = "Isti"
 else:
     weather = "Cox isti"
-    print (day, "-ci gun:", temp, "derece ->", weather)
-    day = day + 1
+print (day, "-ci gun:", temp, "derece ->", weather)
+day = day + 1

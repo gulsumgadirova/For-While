@@ -7,6 +7,6 @@ if number < 0:
 
 else:
  for i in range (1, number + 1):
-  factorial = factorial * 1
+  factorial = factorial * i
   print ("Faktorial:", factorial)
   
